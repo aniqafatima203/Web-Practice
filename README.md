@@ -1,2 +1,2 @@
-# Web-Practice
+# Web 
 Web practice set
