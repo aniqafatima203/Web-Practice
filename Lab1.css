@@ -1,0 +1,84 @@
+.tab-1 {
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    font-weight: bold;
+}
+.tab-2{
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    font-weight: bold;
+}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    h1, h2 {
+        text-align: center;
+    }
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        display: block;
+        font-weight: bold;
+    }
+    .form-group input[type="text"], 
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .form-group textarea {
+        height: 80px;
+    }
+    .form-inline {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .form-inline input {
+        width: calc(50% - 5px);
+    }
+    .form-options {
+        margin-bottom: 15px;
+    }
+    .form-options label {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .submit-button {
+        text-align: center;
+    }
+    .submit-button button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
