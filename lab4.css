@@ -1,0 +1,38 @@
+/* Section 1 */
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "header header header header"
+                         "side main main main"
+                         "side box1 box2 box3"
+                        "footer footer footer footer";
+    height: 100vh;
+}
+.item1{
+    grid-area: header;
+    background-color: rgb(145, 232, 232);
+}
+.item2{
+    grid-area: side;
+    background-color: rgb(158, 157, 226);
+}
+.item3{
+    grid-area: main;
+    background-color: rgb(231, 152, 228);
+}
+.item4{
+    grid-area: box1;
+    background-color: rgb(225, 153, 153);
+}
+.item5{
+    grid-area: box2;
+    background-color: rgb(142, 214, 141);
+}
+.item6{
+    grid-area: box3;
+    background-color: rgb(131, 234, 179);
+}
+.item7{
+    grid-area: footer;
+    background-color: rgb(233, 233, 113);
+} 

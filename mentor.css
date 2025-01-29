@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    
+}
+.container1 {
+    background-color: rgb(52, 52, 222);
+    height:500px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+.container2 {
+    background-color: rgb(244, 239, 239);
+    height:500px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: rgb(250, 35, 35);
+    background-color:rgb(250, 35, 35) ;
+    position: relative;
+}
