@@ -1,16 +1,15 @@
-function appendToDisplay(value) {
-    document.getElementById('display').value += value;
+const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const nav = document.getElementById('navbar');
+
+if (bar) {
+    bar.addEventListener('click', () => {
+        nav.classList.add('active');
+    })
 }
 
-function clearDisplay() {
-    document.getElementById('display').value = '';
-}
-
-function calculateResult() {
-    const display = document.getElementById('display');
-    try {
-        display.value = eval(display.value);
-    } catch (error) {
-        display.value = 'Error';
-    }
+if (close) {
+    close.addEventListener('click', () => {
+        nav.classList.remove('active');
+    })
 }
